@@ -1,0 +1,170 @@
+*{
+    padding: 0;
+    margin: 0;
+    text-decoration: none;
+    list-style: none;
+    box-sizing: border-box;
+}
+
+nav{
+    
+    height: 80px;
+    width: 100%;
+    text-decoration: transparent;
+
+}
+label.logo{
+    color: floralwhite;
+    font-size: 35px;
+    line-height: 80px;
+    padding: 0 100px;
+    font-weight: bold;
+
+}
+
+nav ul{
+    float: right ;
+    margin-right: 20px;
+}
+nav ul li{
+    display: inline-block;
+    line-height: 80px;
+    margin: 0 5px;
+
+}
+nav ul li a{
+    color: floralwhite;
+    font-size: 17px;
+    text-transform: uppercase;
+
+}
+a.active,a:hover{
+    background: lightcoral ;
+    transition: .5s;
+    border-radius: 10px;
+
+}
+.checkbtn{
+    font-size: 30px;
+    color: mintcream;
+    float: right;
+    line-height: 80px;
+    margin-right: 40px;
+    cursor:pointer;
+    display: none;
+}
+#check{
+    display: none;
+}
+@media (max-width:952px){
+    lable.logo{
+        font-size: 30px;
+        padding-left: 50px;
+
+    }
+    nav ul li a{
+        font-size: 16px;
+
+    }
+    @media (max-width:858px){
+        .checkbtn{
+            display: block;
+
+                }
+    }
+    ul{
+        position: fixed;
+        width: 100%;
+        height:100vh;
+        background: lightcoral ;
+        top: 80px;
+        left: -100%;
+        text-align: center;
+        transition: all .5s;
+    
+    }
+    nav ul li{
+        display: block;
+        margin: 50px 0;
+        line-height: 30px;
+    }
+    nav ul li a{
+        font-size: 20px;
+    }
+    a:hover,a.active{
+        background: none;
+        color: darkorange;
+
+    }
+    #check:checked ~ ul{
+        left: 0;
+
+    }
+}
+
+.container {
+    width: 100%;
+    height: 100vh;
+    text-align: center;
+    color: navy;
+   
+    background-size: cover;
+    background-image: linear-gradient(rgba(0,0,0,0.7),rgba(0,0,0,0.7)),url(./images/back.jpg);
+
+    
+   
+  }
+  
+ 
+  .col{
+      flex-basis: 50%;
+      color: white;
+  }
+  .card{
+    
+      width: 200px;
+      height: 230px;
+      display: inline-block;
+      border-radius: 10px;
+      padding: 15px 25px;
+      box-sizing: border-box;
+      cursor: pointer;
+      margin: 10px 15px;
+      transition: transform 0.5s;
+      background-position: right;
+      background-size: cover;
+      
+  }
+  .card1{
+    background-image: url(images/background.jpg);
+   
+  }
+  .card2{
+    background-image: url(images/makeupback.jpg);
+  }
+  .card3{
+    background-image: url(images/cooking.jpg);
+  }
+  .card4{
+    background-image: url(images/girl.jpg);
+  }
+  .card:hover{
+      transform: translateY(-10px);
+  }
+  h5{
+      color: #fff;
+      text-shadow: 0 0 5px #999;
+  }
+  
+  .card p{
+      text-shadow: 0 0 15px #000;
+      font-size: 8px;
+  }
+
+  .row{
+      display:inline-flex;
+      height: 88%;
+      align-items: center;
+      margin-left: 140px;
+      margin-top: 50px;
+  }
