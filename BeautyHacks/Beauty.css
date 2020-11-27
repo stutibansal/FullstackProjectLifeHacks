@@ -10,7 +10,7 @@ nav{
     height: 80px;
     width: 100%;
     text-decoration: transparent;
-    background: url(../images/clothesback.jpg);
+    background: url(https://github.com/Blitzcoder01/FullstackProjectLifeHacks/blob/main/images/makeup.jpg);
 
 }
 label.logo{
@@ -124,13 +124,13 @@ a.active,a:hover{
     margin-top: 150px;
     margin-left: 400px;
 
-    background-image: url(../images/mensbackwallpaper.jpg);
+    background-image: url(https://github.com/Blitzcoder01/FullstackProjectLifeHacks/blob/main/images/makeup.jpg);
 }
 .womencard{
     margin-top: 150px;
     margin-left: 700px;
 
-    background-image: url(../images/womensection.jpg);
+    background-image: url(https://github.com/Blitzcoder01/FullstackProjectLifeHacks/blob/main/images/makeup.jpg);
 }
 .card:hover{
     transform: translateY(-10px);
