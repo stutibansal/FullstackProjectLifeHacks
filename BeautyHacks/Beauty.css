@@ -124,13 +124,13 @@ a.active,a:hover{
     margin-top: 150px;
     margin-left: 400px;
 
-    background-image: url(https://github.com/Blitzcoder01/FullstackProjectLifeHacks/blob/main/images/makeup.jpg);
+    background-image: url(https://github.com/Blitzcoder01/FullstackProjectLifeHacks/blob/main/images/boy.jpeg?raw=true);
 }
 .womencard{
     margin-top: 150px;
     margin-left: 700px;
 
-    background-image: url(https://github.com/Blitzcoder01/FullstackProjectLifeHacks/blob/main/images/makeup.jpg);
+    background-image: url(https://github.com/Blitzcoder01/FullstackProjectLifeHacks/blob/main/images/makeupgirl.jpeg?raw=true);
 }
 .card:hover{
     transform: translateY(-10px);
@@ -140,7 +140,7 @@ a.active,a:hover{
     border: 0px solid;
     padding: 0px;
    /** box-shadow:5px 10px 20px rgb(255, 115, 0) inset;**/
-   background: url(../images/top2.png) no-repeat center center fixed;
+   background: url(https://github.com/Blitzcoder01/FullstackProjectLifeHacks/blob/main/images/top2.png?raw=true) no-repeat center center fixed;
    height: 30%;
    background-repeat: no-repeat;
    -moz-background-size: cover;
