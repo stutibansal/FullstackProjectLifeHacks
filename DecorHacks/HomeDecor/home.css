@@ -1,0 +1,77 @@
+*{
+    padding: 0;
+    margin: 0;
+    text-decoration: none;
+    list-style: none;
+    box-sizing: border-box;
+}
+.glow{
+    font-size: 100px;
+    
+    letter-spacing: 8px;
+    margin-left: 30px;
+    padding-top: 170px;
+    font-size: 80px;
+    color: #fff;
+    text-align: center;
+    -webkit-animation: glow 1s ease-in-out infinite alternate;
+    -moz-animation: glow 1s ease-in-out infinite alternate;
+    animation: glow 1s ease-in-out infinite alternate;
+}
+@keyframes glow {
+    from {
+      text-shadow: 0 0 10px #fff, 0 0 20px #fff, 0 0 30px #003de6, 0 0 40px #003de6, 0 0 50px #003de6, 0 0 60px #003de6, 0 0 70px #003de6;
+    }
+    
+    to {
+      text-shadow: 0 0 20px #fff, 0 0 30px #4da0ff, 0 0 40px #4da0ff, 0 0 50px #4da0ff, 0 0 60px #4da0ff, 0 0 70px #4da0ff, 0 0 80px #4da0ff;
+    }
+  }
+  .menpng{
+    margin-right:70px;
+    margin-left: 950px;
+    margin-top: -800px;
+    padding-top: 60px;
+  }
+  
+  .mencollection{
+    display: table;
+      width: 100%;
+      height: auto; 
+  }
+  .collection{
+    display: table-row;
+  }
+
+  li {
+    display: table-cell;
+    
+  }
+  
+  iframe {
+     margin-left: 10%;
+    display: block;
+  }
+
+  .frame-border3{
+    border:15px solid rgb(16, 228, 210); 
+    margin-top: 30px;
+    border-radius: 10px;
+    }
+    .frame-border4{
+      border:15px solid rgb(228, 16, 182); 
+      margin-top: 30px;
+      border-radius: 10px;
+      }
+      .neon {
+        color: #fff;
+        text-shadow:
+          0 0 5px #fff,
+          0 0 10px #fff,
+          0 0 10px #fff,
+          0 0 10px rgb(255, 187, 0),
+          0 0 10px rgb(255, 187, 0),
+          0 0 20px rgb(255, 238, 0),
+          0 0 20px rgb(255, 238, 0),
+          0 0 20px rgb(255, 238, 0);
+      }

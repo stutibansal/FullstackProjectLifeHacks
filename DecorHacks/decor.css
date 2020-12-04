@@ -127,7 +127,7 @@ a.active,a:hover{
   .homeimage{
     margin-right:50px;
     margin-left: 1000px;
-    margin-top: -300px;
+    margin-top: -600px;
     padding-top: 60px;
   }
 
@@ -158,18 +158,13 @@ a.active,a:hover{
 
   .womencard{
     margin-top: 200px;
-    margin-left: 450px;
+    margin-left: 650px;
     background-image: url(../images/bday.jpg);
   }
   .girlcard{
     margin-top: 200px;
-    margin-left: 700px;
-    background-image: url(../images/girlbackgrond.jpg);
-  }
-  .boycard{
-    margin-top: 200px;
-    margin-left: 950px;
-    background-image: url(../images/boybackground.jpg);
+    margin-left: 1100px;
+    background-image: url(../images/cristmas.jpg);
   }
   .card:hover{
       transform: translateY(-10px);

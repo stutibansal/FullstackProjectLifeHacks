@@ -27,7 +27,15 @@
       text-shadow: 0 0 20px #fff, 0 0 30px #ff4da6, 0 0 40px #ff4da6, 0 0 50px #ff4da6, 0 0 60px #ff4da6, 0 0 70px #ff4da6, 0 0 80px #ff4da6;
     }
   }
+  .dresscutimage{
 
+    margin-right:90px;
+    margin-left: 40px;
+    margin-top: -800px;
+    padding-top: 70px;
+    
+  
+  }
   .womencollection{
     display: table;
       width: 100%;
@@ -47,36 +55,27 @@
     display: block;
   }
   .frame-border { 
-    border:15px solid rgb(5, 105, 5); 
+    border:15px solid coral; 
     margin-left: 50px;
     margin-top: 30px;
     border-radius: 10px;
     }
   
   .frame-border2 { 
-        border:15px solid rgb(248, 159, 25); 
+        border:15px solid rgb(15, 128, 11); 
         margin-top: 30px;
         border-radius: 10px;
         }
-.dresscutimage{
-
-            margin-right:90px;
-            margin-left: 40px;
-            margin-top: -800px;
-            padding-top: -10px; 
-            
-          
-          }
-
-          .neon {
-            color: #fff;
-            text-shadow:
-              0 0 5px #fff,
-              0 0 10px #fff,
-              0 0 10px #fff,
-              0 0 10px rgb(255, 187, 0),
-              0 0 10px rgb(255, 187, 0),
-              0 0 20px rgb(255, 238, 0),
-              0 0 20px rgb(255, 238, 0),
-              0 0 20px rgb(255, 238, 0);
-          }
+        .neon {
+          color: #fff;
+          text-shadow:
+          0 0 5px #fff,
+          0 0 10px #fff,
+          0 0 10px #fff,
+          0 0 10px rgb(255, 187, 0),
+          0 0 10px rgb(255, 187, 0),
+          0 0 20px rgb(255, 238, 0),
+          0 0 20px rgb(255, 238, 0),
+          0 0 20px rgb(255, 238, 0);
+      
+        }
